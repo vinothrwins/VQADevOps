@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 public class RegisterDemoFlow {	
 	
+	
 	public WebDriver driver;
 	
 	String url = "https://vinothqaacademy.com";
@@ -34,6 +35,8 @@ public class RegisterDemoFlow {
 	
 	@Test(priority = 1)
 	public void launchApplication() {
+		
+		System.out.println("CI CD is implemented");
 		
 		// Step 1. Launch the Application
 
